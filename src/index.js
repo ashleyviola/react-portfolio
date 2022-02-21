@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// fontawesome uploads 
+import {library} from '@fortawesome/fontawesome-svg-core';
+import { faAddressCard, faBriefcase, faGear, faBusinessTime, faPhone } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faAddressCard, faBriefcase, faGear, faBusinessTime, faPhone)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
