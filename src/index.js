@@ -6,9 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 // fontawesome uploads 
 import {library} from '@fortawesome/fontawesome-svg-core';
-import { faAddressCard, faBriefcase, faGear, faBusinessTime, faPhone } from '@fortawesome/free-solid-svg-icons';
-
-library.add(faAddressCard, faBriefcase, faGear, faBusinessTime, faPhone)
+import { faAddressCard, faBriefcase, faGear, faBusinessTime, faPhone, faX } from '@fortawesome/free-solid-svg-icons';
+library.add(faAddressCard, faBriefcase, faGear, faBusinessTime, faPhone, faX)
 
 ReactDOM.render(
   <React.StrictMode>
