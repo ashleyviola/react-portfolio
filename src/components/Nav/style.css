@@ -32,12 +32,6 @@
   width: 100%;
 }
 
-h2 {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-
 .hamburger {
   width: 40px;
   display: flex;
