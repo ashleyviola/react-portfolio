@@ -1,0 +1,67 @@
+.contact-container {
+    padding: 20vh 5vw;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+}
+.contact-intro h2 {
+    color: var(--white);
+}
+.contact-intro h3 {
+    color: var(--pink);
+}
+.contact-intro {
+    width: 30vw;
+}
+
+.contact-form {
+    width: 50vw;
+    margin: 0 0 0 10vw;
+}
+.form-object-container {
+    display: flex;
+    border-bottom: 1px var(--white) solid;
+    margin: 0 0 5vh;
+    width: 40vw;
+}
+
+label{
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--white);
+}
+input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 0 0 0 3vw;
+    color: var(--white);
+    outline: none;
+    font-family: 'Mulish', sans-serif;
+
+}
+textarea {
+    background-color: transparent;
+    border: none;
+    resize: none;
+    width: 100%;
+    margin: 0 0 0 3vw;
+    font-family: 'Mulish', sans-serif;
+    color: var(--white);
+    outline: none;
+}
+
+button {
+    background: linear-gradient(144deg, rgba(184,0,91,1) 0%, rgba(142,23,117,1) 17%, rgba(57,54,142,1) 62%, rgba(15,69,155,1) 100%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.error-text{
+    color: var(--pink);
+    font-size: 16px;
+    padding: 10px 0 20px
+}

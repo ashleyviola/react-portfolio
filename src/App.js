@@ -5,6 +5,8 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import RecentWork from './components/RecentWork';
+import Contact from './components/Contact';
+
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -52,6 +54,7 @@ function App() {
         <RecentWork />
         <Skills />
         <Experience />
+        <Contact />
       </main>
     </div>
   );
