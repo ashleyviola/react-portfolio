@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
+import RecentWork from './components/RecentWork';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -48,8 +49,9 @@ function App() {
       <main>
         <Home />
         <About />
-        <Experience />
+        <RecentWork />
         <Skills />
+        <Experience />
       </main>
     </div>
   );
