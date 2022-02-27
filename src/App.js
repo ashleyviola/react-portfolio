@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Experience from './components/Experience';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
       <main>
         <Home />
         <About />
+        <Experience />
       </main>
     </div>
   );

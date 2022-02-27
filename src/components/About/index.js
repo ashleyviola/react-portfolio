@@ -6,7 +6,7 @@ function About() {
     
     return(
         <div className="about-container">
-            <div>
+            <div className="img-container">
                 <img src={avatar}></img>
             </div>
             <div className="about-content-container">
