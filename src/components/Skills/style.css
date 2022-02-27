@@ -1,0 +1,12 @@
+.skills-container {
+    display: flex;
+    padding: 20vh 5vw;
+}
+
+.skills-intro {
+    width: 30vw;
+}
+
+.skills-intro h3 {
+    color: var(--pink);
+}

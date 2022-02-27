@@ -2,9 +2,10 @@ import React, { useState} from 'react';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Experience from './components/Experience';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
         <Home />
         <About />
         <Experience />
+        <Skills />
       </main>
     </div>
   );
