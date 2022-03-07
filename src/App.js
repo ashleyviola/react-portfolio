@@ -6,7 +6,6 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import RecentWork from './components/RecentWork';
 import Contact from './components/Contact';
-import Main from './components/Main';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Skill from './components/Skills';

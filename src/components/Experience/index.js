@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css';
-
+import PDF from '../../assets/Resume.pdf'
 function Experience() {
 
     return (
@@ -8,7 +8,7 @@ function Experience() {
             <div className="experience-intro">
                 <h2>A million girls would kills for this job</h2>
                 <h3>Experience</h3>
-                <a href="/" className="experience-link">View Resume</a>
+                <a href={PDF} className="experience-link">View Resume</a>
             </div>
        </div> 
     )   
