@@ -5,10 +5,12 @@ import './style.css';
 function Contact() {
 
     const [formState, setFormState] = useState({name: '', email: '', message: ''});
-    const {name, email, message } = formState;
+    const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
+        setFormState({...formState, [e.target.name]: e.target.value })
+
         if(e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if(!isValid) {
@@ -31,7 +33,7 @@ function Contact() {
     }
 
     return (
-       <div className="contact-container">
+       <div className="contact-container" id="contact">
             <div className="contact-intro">
                 <h2>You had me at 'Hello'</h2>
                 <h3>Contact</h3>

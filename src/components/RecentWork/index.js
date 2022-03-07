@@ -10,7 +10,7 @@ import weather from '../../assets/image/weather.jpg';
 function RecentWork() {
 
     return (
-        <div className="recent-work-container">
+        <div className="recent-work-container" id="recent-work">
             <div className="recent-work-intro">
                 <h2>Alright, Mr. Demille, I'm ready for my close-up</h2>
                 <h3>Experience</h3>

@@ -5,7 +5,7 @@ import avatar from '../../assets/image/ashley-avatar-2.png';
 function About() {
     
     return(
-        <div className="about-container">
+        <div className="about-container" id="about">
             <div className="img-container">
                 <img src={avatar}></img>
             </div>

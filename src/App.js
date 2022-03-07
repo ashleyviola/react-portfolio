@@ -6,53 +6,59 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import RecentWork from './components/RecentWork';
 import Contact from './components/Contact';
-
+import Main from './components/Main';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Skill from './components/Skills';
 
 
 function App() {
   
   const [sections] = useState([
     {
-      title: "About",
+      title: "about",
       icon: <FontAwesomeIcon icon="address-card"/>,
-      link: "#section"
+      link: "#about"
     },
     {
-      title: "Recent Work",
+      title: "work",
       icon: <FontAwesomeIcon icon="briefcase"/>,
-      link: "#section"
+      link: "#recent-work"
     },
     {
-      title: "Skills",
+      title: "skills",
       icon: <FontAwesomeIcon icon="gear"/>,
-      link: "#section"
+      link: "#skills"
     },
     {
-      title: "Experience",
+      title: "experience",
       icon: <FontAwesomeIcon icon="business-time"/>,
-      link: "#section"
+      link: "#experience"
     },
     {
-      title: "Contact",
+      title: "contact",
       icon: <FontAwesomeIcon icon="phone"/>,
-      link: "#section"
+      link: "#contact"
     }
   ]);
   const [currentSection, setCurrentSection] = useState(sections[0]);
+  const [contactSelected, setContactSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(false);
   return (
     <div>
       <Nav 
         sections={sections}
         setCurrentSection={setCurrentSection}
         currentSection={currentSection}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        aboutSelected={setAboutSelected}
       />
       <main>
         <Home />
         <About />
         <RecentWork />
-        <Skills />
+        <Skill /> 
         <Experience />
         <Contact />
       </main>

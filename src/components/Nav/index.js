@@ -7,7 +7,11 @@ function Nav(props) {
     const {
         sections = [],
         setCurrentSection,
-        currentSection
+        currentSection,
+        contactSelected,
+        setContactSelected, 
+        aboutSelected, 
+        setAboutSelected,
     } = props;
 
     const [isSidebar, initSidebar] = useState(false)
@@ -34,6 +38,7 @@ function Nav(props) {
 
     }, [currentSection]);
 
+    console.log(currentSection);
         
     return (
         <header className="header">
@@ -67,38 +72,27 @@ function Nav(props) {
                     </svg>
                 </span>
             </nav>
-        <div
-            ref={node}
-            className="sidebar-block"
-            style={{ left: isSidebar ? '0' : '-260px' }}
-        >
-            <div className="nav-header">
-                <img src={avatar} className="nav-avatar"/>
-                <h1 className="nav-title">ashley viola</h1>
+            <div
+                ref={node}
+                className="sidebar-block"
+                style={{ left: isSidebar ? '0' : '-260px' }}
+            >
+                <div className="nav-header">
+                    <img src={avatar} className="nav-avatar"/>
+                    <h1 className="nav-title">ashley viola</h1>
+                </div>
+                {sections.map((section) => (
+                    <a 
+                        className={`${currentSection.title===section.title && `navActive`}`} key={section.title} href={section.link} onClick={() => {
+                            setCurrentSection(section);
+                            setContactSelected(false);
+                        }}> 
+                            <span className="nav-icon" >
+                                {section.icon}</span> {capitalizeFirstLetter(section.title)}
+                    </a>
+                ))}
             </div>
-            
-            {sections.map((section) => {
-                return (
-                    <a href={section.link}> <span className="nav-icon">{section.icon}</span> {section.title}</a>
-                )
-            })}
-        </div>
-    </header>
-
-
-
-        // <div className="nav-container">
-        //     <h1 className="nav-heading">Ashley <br></br>Viola</h1>
-        //     <ul className="nav-list">
-        //         {sections.map((section) => {
-        //             return (
-        //                 <li className="nav-list-item"> 
-        //                     <a href={section.link}> <span>{section.icon}</span> {section.title}</a>
-        //                 </li>
-        //             )   
-        //         })}
-        //     </ul>
-        // </div>
+        </header>
     )
 }
 
