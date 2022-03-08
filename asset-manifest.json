@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ee1285d.css",
-    "main.js": "/static/js/main.0ca8777c.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/social-network-api.gif": "/static/media/social-network-api.f0187398e25afdceeb08.gif",
-    "static/media/home-background.jpg": "/static/media/home-background.79f558d96a3da5bb80cb.jpg",
-    "static/media/ashley-avatar-2.png": "/static/media/ashley-avatar-2.70861b9cc26d3a9076b3.png",
-    "static/media/ashley-avatar-1.png": "/static/media/ashley-avatar-1.3280b1b34d66165d5894.png",
-    "static/media/Resume.pdf": "/static/media/Resume.b0ca8d6866721c9f4421.pdf",
-    "static/media/snapbooks.jpg": "/static/media/snapbooks.2de729942f1f3652e14f.jpg",
-    "static/media/tech-blog.jpg": "/static/media/tech-blog.b1776ea9bac107850206.jpg",
-    "index.html": "/index.html",
-    "main.8ee1285d.css.map": "/static/css/main.8ee1285d.css.map",
-    "main.0ca8777c.js.map": "/static/js/main.0ca8777c.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.45409fae.css",
+    "main.js": "/react-portfolio/static/js/main.f1fe5dca.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/social-network-api.gif": "/react-portfolio/static/media/social-network-api.f0187398e25afdceeb08.gif",
+    "static/media/home-background.jpg": "/react-portfolio/static/media/home-background.79f558d96a3da5bb80cb.jpg",
+    "static/media/ashley-avatar-2.png": "/react-portfolio/static/media/ashley-avatar-2.70861b9cc26d3a9076b3.png",
+    "static/media/ashley-avatar-1.png": "/react-portfolio/static/media/ashley-avatar-1.3280b1b34d66165d5894.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.b0ca8d6866721c9f4421.pdf",
+    "static/media/snapbooks.jpg": "/react-portfolio/static/media/snapbooks.2de729942f1f3652e14f.jpg",
+    "static/media/tech-blog.jpg": "/react-portfolio/static/media/tech-blog.b1776ea9bac107850206.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.45409fae.css.map": "/react-portfolio/static/css/main.45409fae.css.map",
+    "main.f1fe5dca.js.map": "/react-portfolio/static/js/main.f1fe5dca.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ee1285d.css",
-    "static/js/main.0ca8777c.js"
+    "static/css/main.45409fae.css",
+    "static/js/main.f1fe5dca.js"
   ]
 }
