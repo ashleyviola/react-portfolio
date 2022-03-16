@@ -5,6 +5,9 @@
   --blue: #0f459b;
 } 
 
+main {
+    margin-left: 250px;
+}
 body {
     margin: 0;
     padding: 0;

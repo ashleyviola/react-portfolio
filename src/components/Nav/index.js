@@ -43,7 +43,7 @@ function Nav(props) {
     return (
         <header className="header">
             <nav className="navbar">
-                <span
+                {/* <span
                     ref={node}
                     className="hamburger"
                     onClick={() => {
@@ -70,12 +70,12 @@ function Nav(props) {
                             />
                         )}
                     </svg>
-                </span>
+                </span> */}
             </nav>
             <div
-                ref={node}
+                // ref={node}
                 className="sidebar-block"
-                style={{ left: isSidebar ? '0' : '-260px' }}
+                // style={{ left: isSidebar ? '0' : '-260px' }}
             >
                 <div className="nav-header">
                     <img src={avatar} className="nav-avatar"/>

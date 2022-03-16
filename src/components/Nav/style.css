@@ -40,13 +40,26 @@
   margin-left: 1rem;
 }
 
-.sidebar-block {
+/* .sidebar-block {
   position: fixed;
   left: 0;
   height: 100%;
   width: 255px;
   background: white;
   transition: all .35s ease-out;
+} */
+
+.sidebar-block {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 255px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background: white;
+  /* transition: all .35s ease-out; */
 }
 
 .sidebar-block a {
