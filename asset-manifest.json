@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.45409fae.css",
-    "main.js": "/react-portfolio/static/js/main.f1fe5dca.js",
+    "main.css": "/react-portfolio/static/css/main.0e77fff6.css",
+    "main.js": "/react-portfolio/static/js/main.ab615fbf.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/social-network-api.gif": "/react-portfolio/static/media/social-network-api.f0187398e25afdceeb08.gif",
+    "static/media/shave-the-yak.png": "/react-portfolio/static/media/shave-the-yak.0b733c4cd8065d58f903.png",
     "static/media/home-background.jpg": "/react-portfolio/static/media/home-background.79f558d96a3da5bb80cb.jpg",
     "static/media/ashley-avatar-2.png": "/react-portfolio/static/media/ashley-avatar-2.70861b9cc26d3a9076b3.png",
     "static/media/ashley-avatar-1.png": "/react-portfolio/static/media/ashley-avatar-1.3280b1b34d66165d5894.png",
@@ -11,12 +12,12 @@
     "static/media/snapbooks.jpg": "/react-portfolio/static/media/snapbooks.2de729942f1f3652e14f.jpg",
     "static/media/tech-blog.jpg": "/react-portfolio/static/media/tech-blog.b1776ea9bac107850206.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.45409fae.css.map": "/react-portfolio/static/css/main.45409fae.css.map",
-    "main.f1fe5dca.js.map": "/react-portfolio/static/js/main.f1fe5dca.js.map",
+    "main.0e77fff6.css.map": "/react-portfolio/static/css/main.0e77fff6.css.map",
+    "main.ab615fbf.js.map": "/react-portfolio/static/js/main.ab615fbf.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45409fae.css",
-    "static/js/main.f1fe5dca.js"
+    "static/css/main.0e77fff6.css",
+    "static/js/main.ab615fbf.js"
   ]
 }
